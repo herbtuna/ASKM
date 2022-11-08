@@ -1,0 +1,19 @@
+<!dochtml>
+<html>
+<title>정기총회 초대장 전송용 사이트</title>
+<head>
+    <meta charset="utf-8"/>
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+</head>
+<body>
+<h1>모바일 초대장 전송하기<br>
+
+   <a id="kakao-link-btn">
+     <img src="//developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png" width="195" height="195" style="max-width: 500%; height: auto;"> 
+   </a> 전송버튼</h1>
+	<script type='text/javascript'> 
+  	  Kakao.init('2d994cf8d7dcc03c29f61aa33817f1d3');
+	  Kakao.Link.createCustomButton({container: '#kakao-link-btn', templateId: 85503,});
+	</script>
+</body>
+</html>
